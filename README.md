@@ -1,4 +1,6 @@
-# Solana Web Developer
+# SeedFlow
+
+SeedFlow is a Solana‑based mobile dApp that lets underserved farmers and micro‑entrepreneurs obtain instant, collateral‑free micro‑loans bundled with oracle‑triggered parametric insurance—so global lenders earn yield while borrowers stay protected from climate shocks, all in a single tap.
 
 *Automatically synced with your [v0.dev](https://v0.dev) deployments*
 
