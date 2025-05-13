@@ -30,3 +30,13 @@ Continue building your app on:
 2. Deploy your chats from the v0 interface
 3. Changes are automatically pushed to this repository
 4. Vercel deploys the latest version from this repository
+
+
+
+
+pitch movie
+3 minutes ver.
+https://youtu.be/lcA9u61QSNY
+5 minutes ver.
+https://youtu.be/K6Urntfaz1o
+
