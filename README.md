@@ -1,42 +1,73 @@
 # SeedFlow
 
-SeedFlow is a Solana‑based mobile dApp that lets underserved farmers and micro‑entrepreneurs obtain instant, collateral‑free micro‑loans bundled with oracle‑triggered parametric insurance—so global lenders earn yield while borrowers stay protected from climate shocks, all in a single tap.
+SeedFlow is a Solana-based mobile dApp that enables underserved farmers and small entrepreneurs to receive instant small loans bundled with parametric insurance triggered by oracles.
 
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
+## Features
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/fuga135y-gmailcoms-projects/v0-solana-web-developer)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/OhrxIqTENVF)
+- Instant small loans without collateral
+- Parametric insurance integration
+- Oracle-triggered insurance payouts
+- Mobile-first design
+- Solana blockchain integration
 
-## Overview
+## Prerequisites
 
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
+- Node.js (v16 or higher)
+- Solana CLI tools
+- Anchor Framework
+- A Solana wallet (e.g., Phantom)
 
-## Deployment
+## Installation
 
-Your project is live at:
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/seedflow.git
+cd seedflow
+```
 
-**[https://vercel.com/fuga135y-gmailcoms-projects/v0-solana-web-developer](https://vercel.com/fuga135y-gmailcoms-projects/v0-solana-web-developer)**
+2. Install dependencies:
+```bash
+npm install
+```
 
-## Build your app
+3. Set up Solana development environment:
+```bash
+solana config set --url localhost
+```
 
-Continue building your app on:
+4. Start the development server:
+```bash
+npm start
+```
 
-**[https://v0.dev/chat/projects/OhrxIqTENVF](https://v0.dev/chat/projects/OhrxIqTENVF)**
+## Project Structure
 
-## How It Works
+```
+seedflow/
+├── src/                    # Source files
+│   ├── components/        # React components
+│   ├── contracts/        # Solana smart contracts
+│   ├── utils/            # Utility functions
+│   └── App.tsx           # Main application component
+├── public/               # Static files
+└── tests/               # Test files
+```
 
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+## Smart Contracts
 
+The project includes the following Solana programs:
+- Loan Program: Handles loan creation and management
+- Insurance Program: Manages parametric insurance policies
+- Oracle Integration: Connects with external data providers
 
+## Contributing
 
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
-pitch movie
-3 minutes ver.
-https://youtu.be/lcA9u61QSNY
-5 minutes ver.
-https://youtu.be/K6Urntfaz1o
+## License
 
+This project is licensed under the MIT License - see the LICENSE file for details. 
