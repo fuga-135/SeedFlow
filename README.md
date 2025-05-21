@@ -74,7 +74,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 
 
-## demo
+## demo（devnet）
 https://seed-flow-testnet-jr9e.vercel.app/
 
 
